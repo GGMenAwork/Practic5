@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practic5</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/73ffe1e700.js"></script>
+  </head>
+  <body>
+    <div  class="wrapper">
+      <div id="up" class="logo">
+        <div class="logo_text">
+          <a href="#main">Main</a>
+          <a href="#about">about us</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div id="main" class="header _test">
+          <h1>the mountains</h1>
+          <h2>is calling and i must go</h2>
+        </div>
+      </div>
+
+      <div id="about" class="seccond _test">
+        <p>
+          Professional designer Barbara combines his photography degree with his
+          marketing degree to find the right balance between creativity and
+          commercial sense. Vincent is an experienced all round photographer and
+          moved to Stirling at the end of 2017.
+        </p>
+        <h2>about</h2>
+      </div>
+      <div class="mid_text _test ">
+        <h2>travel</h2>
+        <p>
+          Some of life’s usual rules go out of the window when you’re
+          travelling. You don’t have to set your alarm clock and you don’t have
+          to worry about ironing, washing the dishes or any of that other boring
+          grown-up stuff.
+        </p>
+        <ul>
+          <ol>
+            1. Take risks
+          </ol>
+          <ol>
+            2. Try something new
+          </ol>
+          <ol>
+            3. Make connections
+          </ol>
+          <ol>
+            4. Tread lightly
+          </ol>
+          <ol>
+            5. Give something back
+          </ol>
+        </ul>
+        <div class="photo_mid2 ">
+          <img src="photo/1579587383_12-p-monokhromnoe-more-16.jpg" alt="" />
+          <img
+            src="photo/1638857212_9-pibig-info-p-chyorno-belaya-zima-priroda-krasivo-foto-14.jpg"
+            alt=""
+          />
+          <img
+            src="photo/1638328909_59-krot-info-p-chyorno-belie-peizazhi-krasivie-foto-76.jpg"
+            alt=""
+          />
+        </div>
+        <div class="photo_mid">
+          <img
+            src="photo/1622291498_45-oir_mobi-p-cherno-belii-peizazh-priroda-krasivo-foto-51.jpg"
+            alt=""
+          />
+          <img
+            src="photo/1622291488_46-oir_mobi-p-cherno-belii-peizazh-priroda-krasivo-foto-52.jpg"
+            alt=""
+          />
+          <img
+            src="photo/1620820621_29-pibig_info-p-chyorno-belii-les-priroda-krasivo-foto-33.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="photo_gale _test"></div>
+      <div class="text_galerea _test">
+        <h2>go where</h2>
+        <p>
+          Mountain tours combine hiking, sightseeing and super jeep excursions,
+          taking visitors to some of the land's most breathtaking regions.
+        </p>
+      </div>
+      <div class="galerea _test">
+        <h2>amazing places</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc
+          justo sagittis suscipit ultrices.
+        </p>
+        <div class="photo_galerea _test">
+          <img
+            src="photo/1622291506_9-oir_mobi-p-cherno-belii-peizazh-priroda-krasivo-foto-9.jpg"
+            alt=""
+          />
+          <img src="photo/i.webp" alt="" />
+          <img src="photo/Adams_The_Tetons_and_the_Snake_River.jpg" alt="" />
+          <img src="photo/river-1474358_1280.jpg" alt="" />
+        </div>
+      </div>
+      <div class="footer">
+        <div class="photo_footer _test"></div>
+        <div class="text_footer _test">
+          <h2>new road</h2>
+          <p>
+            We have a few ways to go in the middle of summer. Embrace the warm
+            weather, seek the air-conditioned indoors, escape to the beach, or
+            satisfy that seasonal urge to get away
+          </p>
+        </div>
+        <div id="contact" class="socialmobile">
+          <a class="social__icon facebook" href="#">
+            <i class="fab fa-facebook-f"></i>
+
+            <a class="social__icon twitter" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </a>
+          <a class="social__icon instagram" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="up">
+          <a  href="#up">Up</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function onEntry(entry) {
+      entry.forEach((change) => {
+        if (change.isIntersecting) {
+          change.target.classList.add("test-show");
+        // } else {
+        //   change.target.classList.remove("test-show");
+        }
+      });
+    }
+
+    let options = {
+      threshold: [0.5],
+    };
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = document.querySelectorAll("._test");
+
+    for (let elm of elements) {
+      observer.observe(elm);
+    }
+  </script>
+</html>

@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: end;
+  width: 100%;
+  height: 1200px;
+  background: url(photo/1639386650_3-abrakadabra-fun-p-gori-chb-3.jpg) 0% 0%
+    no-repeat fixed;
+  background-size: 100% 100%;
+  filter: brightness(70%);
+}
+.logo_text {
+  padding: 50px;
+  width: 30%;
+  margin: 0 0 0 60%;
+}
+
+.logo_text a {
+  color: #a7a6a6;
+  font-size: 26px;
+  margin: 10px 50px 10px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  &:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+}
+.header {
+  color: #000000;
+  background-color: #ffffff8f;
+  font-size: 100px;
+  text-align: center;
+}
+.header h2 {
+  color: #000000;
+  font-size: 80px;
+  font-weight: 100;
+}
+.seccond h2 {
+  font-size: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 0 0 370px;
+  font-weight: 900;
+}
+.seccond p {
+  width: 20%;
+  margin: 50px 0 0 350px;
+  font-size: 20px;
+  padding: 0 0 0 50px;
+  border-left: 20px solid #000000;
+}
+.mid_text {
+  background: #000000;
+  color: #fff;
+  padding: 0 0 0px 0;
+}
+.mid_text h2 {
+  font-size: 110px;
+  margin: 0 0 0 380px;
+
+  width: 20%;
+}
+.mid_text p {
+  margin: 0 0 0 350px;
+  width: 20%;
+  font-size: 20px;
+  padding: 0 0 0 70px;
+}
+.mid_text ul {
+  text-align: start;
+  font-size: 24px;
+  margin-left: 41%;
+  transform: translate(0, 130%);
+  width: 10%;
+}
+.photo_mid img {
+  width: 20%;
+  padding: 10px;
+
+  align-self: flex-end;
+}
+.photo_mid {
+  transform: translate(0, -100%);
+  margin-left: 20%;
+  margin-top: 20%;
+
+  padding: 10px;
+  display: flex;
+  height: 150px;
+}
+.photo_mid2 img {
+  align-self: flex-start;
+  width: 20%;
+  padding: 10px;
+}
+.photo_mid2 {
+  transform: translate(0, -100%);
+  display: flex;
+  height: 150px;
+
+  padding: 10px;
+  margin-left: 20%;
+}
+.text_galerea {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.text_galerea h2 {
+  font-size: 180px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.text_galerea p {
+  padding: 50px 50px 50px 0;
+  font-size: 22px;
+  width: 20%;
+}
+.photo_gale {
+  background-image: url(photo/oleni-zimoy-1536x1024.webp);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  filter: grayscale(100%);
+  width: 100%;
+  padding: 300px 0;
+}
+
+.galerea h2 {
+  font-size: 170px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.galerea p {
+  font-size: 22px;
+  width: 30%;
+  margin-left: 13%;
+  padding: 50px;
+  border-bottom: 10px solid #000000;
+}
+.photo_galerea {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.photo_galerea img {
+  width: 20%;
+  padding: 10px;
+  height: 500px;
+}
+.photo_footer {
+  background-image: url(photo/pexels-photo-3604267.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  filter: grayscale(100%);
+  width: 100%;
+  padding: 200px 0;
+}
+
+.text_footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer h2 {
+  font-size: 170px;
+  margin-left: 13%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.footer p {
+  font-size: 22px;
+  width: 30%;
+  margin-left: 13%;
+  padding: 50px;
+}
+.socialmobile {
+  margin-left: 14%;
+  padding-bottom: 50px;
+}
+.social__icon {
+  font-size: 36px;
+  text-decoration: none;
+  margin-left: 30px;
+  color: #000000;
+}
+._test {
+  opacity: 0;
+  transform: translate(0px, 20px);
+  transition: all 1s;
+}
+._test.test-show {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  transition: all 1s;
+}
+
+.up a {
+  padding: 30px;
+  background: #000000;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  margin-left: 90%;
+  position: fixed;
+  top: 70%;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  text-decoration: none;
+  font-size: 34px;
+  color: #fff;
+  transition: all 0.5s;
+  &:hover {
+    color: aqua;
+    border: 2px solid aqua;
+  }
+}
+/* ------------------------------------------------------------------------ */
+@media (max-width: 1441px) {
+  .mid_text {
+    background: #000000;
+    color: #fff;
+    padding: 0 0 0px 0;
+  }
+  .mid_text h2 {
+    font-size: 110px;
+    margin: 0 0 0 380px;
+
+    width: 20%;
+  }
+  .mid_text p {
+    margin: 0 0 0 350px;
+    width: 20%;
+    font-size: 20px;
+    padding: 0 0 0 70px;
+  }
+  .mid_text ul {
+    text-align: start;
+    font-size: 24px;
+    margin-left: 41%;
+    transform: translate(0, 110%);
+    width: 13%;
+  }
+  .photo_mid img {
+    width: 20%;
+    padding: 10px;
+
+    align-self: flex-end;
+  }
+  .photo_mid {
+    transform: translate(0, -100%);
+    margin-left: 20%;
+    margin-top: 20%;
+
+    padding: 10px;
+    display: flex;
+    height: 150px;
+  }
+  .photo_mid2 img {
+    align-self: flex-start;
+    width: 20%;
+    padding: 10px;
+  }
+  .photo_mid2 {
+    transform: translate(0, -100%);
+    display: flex;
+    height: 150px;
+
+    padding: 10px;
+    margin-left: 20%;
+  }
+  .photo_galerea {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .photo_galerea img {
+    width: 20%;
+    padding: 10px;
+    height: 400px;
+  }
+}
+/* ------------------------------------------------------------------------ */
+@media (max-width: 767px) {
+  .logo {
+    text-align: end;
+    width: 100%;
+    height: 100%;
+    background: url(photo/1639386650_3-abrakadabra-fun-p-gori-chb-3.jpg) 0% 0%
+      no-repeat fixed;
+    background-size: 100% 40%;
+    filter: brightness(70%);
+  }
+  .logo_text {
+    padding: 50px;
+    width: 100%;
+    margin: 0 0 0 -20%;
+  }
+
+  .logo_text a {
+    color: #080808;
+    font-size: 26px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    &:hover {
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
+    }
+  }
+  .header {
+    color: #000000;
+    background-color: #ffffff8f;
+    font-size: 30px;
+    text-align: center;
+  }
+  .header h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 100;
+  }
+  .seccond h2 {
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0 0 0 3px;
+    font-weight: 900;
+  }
+  .seccond p {
+    width: 50%;
+    margin: 20px 0 0 3px;
+    font-size: 14px;
+    padding: 0 0 0 50px;
+    border-left: 20px solid #000000;
+  }
+  .mid_text {
+    background: #000000;
+    color: #fff;
+    padding: 0 0 0px 0;
+  }
+  .mid_text h2 {
+    font-size: 50px;
+    margin: 0 0 0 3px;
+    width: 20%;
+  }
+  .mid_text p {
+    margin: 0 0 0 3px;
+    width: 50%;
+    font-size: 14px;
+    padding: 0 0 0 70px;
+  }
+  .mid_text ul {
+    text-align: start;
+    font-size: 14px;
+    margin-left: 41%;
+    transform: translate(-30%, 130%);
+    width: 50%;
+  }
+  .photo_mid img {
+    width: 32.5%;
+    padding: 1px;
+  }
+  .photo_mid {
+    transform: translate(0%, -50%);
+    margin-left: 0%;
+    margin-top: 0%;
+
+    padding: 0px;
+    display: flex;
+    height: 200px;
+  }
+  .photo_mid2 img {
+    width: 32.5%;
+    padding: 1px;
+  }
+  .photo_mid2 {
+    transform: translate(0, -50%);
+    display: flex;
+    height: 150px;
+
+    padding: 0px;
+    margin-left: 0%;
+  }
+  .text_galerea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -110% 0 0 0;
+  }
+  .text_galerea h2 {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 900;
+  }
+  .text_galerea p {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .photo_gale {
+    background-image: url(photo/oleni-zimoy-1536x1024.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 3%;
+    filter: grayscale(100%);
+    width: 100%;
+    padding: 300px 0;
+  }
+
+  .galerea h2 {
+    font-size: 30px;
+  
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 900;
+  }
+  .galerea p {
+    font-size:14px;
+    width: 50%;
+    margin-left: 13%;
+    padding: 50px;
+    border-bottom: 10px solid #000000;
+  }
+  .photo_galerea {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 0 0 15% ;
+  }
+  .photo_galerea img {
+    width: 80%;
+    padding: 5px;
+    height: 100px;
+  }
+  .photo_footer {
+    background-image: url(photo/pexels-photo-3604267.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    filter: grayscale(100%);
+    width: 100%;
+    padding: 200px 0;
+  }
+
+  .text_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer h2 {
+    font-size: 30px;
+    margin-left: 13%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 900;
+  }
+  .footer p {
+    font-size: 14px;
+    width: 50%;
+    margin-left: 13%;
+    padding: 50px;
+  }
+  .socialmobile {
+    margin-left: 14%;
+    padding-bottom: 50px;
+  }
+  .social__icon {
+    font-size: 36px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000000;
+  }
+  ._test {
+    opacity: 0;
+    transform: translate(0px, 0px);
+    transition: all 1s;
+  }
+  ._test.test-show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: all 1s;
+  }
+
+  .up a {
+    padding: 15px;
+    background: #000000;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-left: 65%;
+    position: fixed;
+    top: 90%;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.5s;
+    &:hover {
+      color: aqua;
+      border: 2px solid aqua;
+    }
+  }
+}
