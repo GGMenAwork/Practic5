@@ -596,7 +596,7 @@
   .mid_text {
     background: #000000;
     color: #fff;
-    padding: 0 0 0px 0;
+    padding: 0px 0px 150px 0;
   }
   .mid_text h2 {
     font-size: 50px;
@@ -612,16 +612,16 @@
   .mid_text ul {
     text-align: start;
     font-size: 14px;
-    margin-left: 41%;
-    transform: translate(-30%, 130%);
+    margin:5px auto;
+    transform: translate(20%, 250%);
     width: 50%;
   }
   .photo_mid img {
-    width: 32.5%;
-    padding: 1px;
+    width: 30%;
+    padding: 2px;
   }
   .photo_mid {
-    transform: translate(0%, -50%);
+    transform: translate(0%, 50%);
     margin-left: 0%;
     margin-top: 0%;
 
@@ -630,8 +630,8 @@
     height: 200px;
   }
   .photo_mid2 img {
-    width: 32.5%;
-    padding: 1px;
+    width: 30%;
+    padding: 2px;
   }
   .photo_mid2 {
     transform: translate(0, -50%);
@@ -645,7 +645,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: -110% 0 0 0;
+    margin: -5% 0 0 3%;
+   
+    width: 90%;
+    
   }
   .text_galerea h2 {
     font-size: 30px;
@@ -654,6 +657,7 @@
     font-weight: 900;
   }
   .text_galerea p {
+    
     padding: 10px;
     font-size: 14px;
     width: 100%;
@@ -679,19 +683,19 @@
     font-size: 14px;
     width: 50%;
     margin-left: 13%;
-    padding: 50px;
+    padding: 20px;
     border-bottom: 10px solid #000000;
   }
   .photo_galerea {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: 0 0 0 15%;
+    margin: 5px auto;
   }
   .photo_galerea img {
     width: 80%;
     padding: 5px;
-    height: 100px;
+    height: 100%;
   }
   .photo_footer {
     background-image: url(photo/pexels-photo-3604267.jpeg);
@@ -749,7 +753,7 @@
     margin-left: 65%;
     position: fixed;
     top: 90%;
-    left: 0;
+    left: 25%;
     z-index: 50;
     display: flex;
     text-decoration: none;
@@ -907,7 +911,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: 0 0 0 15%;
+    margin: 5px auto;
   }
   .photo_galerea img {
     width: 80%;
@@ -927,26 +931,29 @@
   .text_footer {
     display: flex;
     flex-direction: column;
+    
   }
   .footer h2 {
     font-size: 30px;
-    margin-left: 13%;
+    margin:5px auto;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 900;
   }
   .footer p {
     font-size: 14px;
-    width: 50%;
-    margin-left: 13%;
-    padding: 50px;
+    width: 60%;
+    margin:5px auto;
+    
+    padding: 20px;
   }
   .socialmobile {
-    margin-left: 14%;
+    margin:5px auto;
     padding-bottom: 50px;
+    
   }
   .social__icon {
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: none;
     margin-left: 30px;
     color: #000000;
@@ -970,7 +977,7 @@
     margin-left: 65%;
     position: fixed;
     top: 90%;
-    left: 0;
+    left: 12%;
     z-index: 50;
     display: flex;
     text-decoration: none;
